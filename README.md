@@ -44,6 +44,7 @@ java-student-information-system/
     └── sample_data.txt
 ```
 
+
 ---
 
 ## ▶️ How to Run
@@ -71,6 +72,14 @@ javac StudentInformationSystem.java
 ```
 java StudentInformationSystem
 ```
+
+---
+
+
+## 📸 Project Screenshot
+
+![Student Information System](assets/screenshot.png)
+
 
 ---
 
