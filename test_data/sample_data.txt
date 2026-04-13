@@ -1,0 +1,63 @@
+STUDENT SAMPLE DATA
+
+---
+
+📌 Format:
+StudentID, Name, Age, Grade, Contact
+------------------------------------
+
+S101, Ratnam Singh, 20, 8.5, 9876543210
+S102, Aman Verma, 21, 7.8, 9123456780
+S103, Rahul Sharma, 19, 9.1, 9988776655
+S104, Priya Gupta, 22, 8.9, 9012345678
+S105, Neha Kapoor, 20, 7.5, 9090909090
+
+---
+
+## 📌 Edge Cases (for Testing Validation)
+
+# Duplicate ID (should not be allowed ideally)
+
+S101, Duplicate Student, 23, 6.5, 9000000000
+
+# Invalid Age (negative)
+
+S106, Invalid Age, -5, 7.0, 9111111111
+
+# High Grade Value
+
+S107, Topper Student, 21, 10.0, 9222222222
+
+# Empty Name (invalid case)
+
+S108, , 20, 8.0, 9333333333
+
+---
+
+## 📌 Test Cases
+
+1. Add Student
+   Input: Valid student details
+   Expected Output: Student added successfully
+
+2. View Students
+   Input: Multiple students added
+   Expected Output: Display all students in tabular format
+
+3. Search Student (Valid ID)
+   Input: Existing ID (e.g., S101)
+   Expected Output: Student details displayed
+
+4. Search Student (Invalid ID)
+   Input: Non-existing ID (e.g., S999)
+   Expected Output: Student not found
+
+5. Update Student
+   Input: Existing ID with new data
+   Expected Output: Student updated successfully
+
+6. Delete Student
+   Input: Existing ID
+   Expected Output: Student deleted successfully
+
+---

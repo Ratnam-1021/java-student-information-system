@@ -1,0 +1,134 @@
+STUDENT INFORMATION SYSTEM
+
+---
+
+## 📌 1. Project Description
+
+This project is a console-based Student Information System developed using Java.
+The system allows users to manage student records efficiently by performing
+operations such as adding, viewing, searching, updating, and deleting student data.
+
+It is designed using Object-Oriented Programming principles like encapsulation,
+where student data is managed through private variables and accessed using
+getter and setter methods.
+
+---
+
+## 📌 2. Features
+
+1. Add Student
+
+   * Allows user to enter student details such as ID, name, age, grade, and contact.
+
+2. View All Students
+
+   * Displays all student records in a structured tabular format.
+
+3. Search Student
+
+   * Searches for a student using their unique Student ID.
+
+4. Update Student
+
+   * Updates existing student details like name, age, grade, and contact.
+
+5. Delete Student
+
+   * Removes a student record using Student ID.
+
+---
+
+## 📌 3. Technologies Used
+
+* Java (Core Java)
+* ArrayList (Dynamic data storage)
+* Scanner (User input handling)
+
+---
+
+## 📌 4. How to Run the Program
+
+1. Open terminal or command prompt
+
+2. Navigate to project directory
+
+3. Compile the program:
+   javac src/StudentInformationSystem.java
+
+4. Run the program:
+   java -cp src StudentInformationSystem
+
+---
+
+## 📌 5. Data Source
+
+* User input data (entered through console)
+
+---
+
+## 📌 6. Sample Input
+
+Student ID: S101
+Name: Ratnam
+Age: 20
+Grade: 8.5
+Contact: 9876543210
+
+---
+
+## 📌 7. Sample Output
+
+Student added successfully!
+
+---
+
+## 📌 8. Test Cases
+
+1. Add Student
+   Input: Valid student details
+   Expected Output: Student added successfully
+
+2. View Students
+   Input: Multiple students added
+   Expected Output: Display all students in table format
+
+3. Search Student (Valid ID)
+   Input: Existing student ID
+   Expected Output: Student details displayed
+
+4. Search Student (Invalid ID)
+   Input: Non-existing ID
+   Expected Output: Student not found
+
+5. Update Student
+   Input: Existing ID with new data
+   Expected Output: Student updated successfully
+
+6. Delete Student
+   Input: Existing ID
+   Expected Output: Student deleted successfully
+
+---
+
+## 📌 9. Limitations
+
+* Data is not stored permanently (no file/database storage)
+* Data is lost after program termination
+* Console-based system (no graphical user interface)
+
+---
+
+## 📌 10. Future Enhancements
+
+* Add file handling or database (MySQL) for permanent storage
+* Develop GUI using Java Swing or JavaFX
+* Add input validation and error handling
+* Implement login system for admin/user roles
+
+---
+
+## 📌 11. Author
+
+Ratnam Singh
+B.Tech CSE Student
+------------------
