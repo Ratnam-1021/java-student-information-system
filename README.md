@@ -1,6 +1,6 @@
 # 🎓 Student Information System (Java)
 
-## 📌 Overview
+## Overview
 
 The **Student Information System** is a console-based Java application designed to manage student records efficiently.
 It allows users to perform essential operations such as adding, viewing, searching, updating, and deleting student data.
@@ -9,7 +9,7 @@ This project demonstrates the use of **Core Java concepts**, including Object-Or
 
 ---
 
-## 🚀 Features
+## Features
 
 * ➕ Add new student records
 * 📋 View all students in tabular format
@@ -20,7 +20,7 @@ This project demonstrates the use of **Core Java concepts**, including Object-Or
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Java (Core Java)**
 * **ArrayList** (for dynamic data storage)
@@ -76,9 +76,18 @@ java StudentInformationSystem
 ---
 
 
-## 📸 Project Screenshot
+## Project Screenshot
 
 ![Student Information System](assets/screenshot.png)
+
+
+---
+
+
+## Documentation
+
+Complete project documentation is available here:  
+[View Documentation](https://docs.google.com/document/d/18jjDPUdnQEi_AyVvm1Vs9pyiAgJr8WK3fQ9ntuVOXaA/edit?usp=sharing)
 
 
 ---
@@ -95,7 +104,7 @@ Contact: 9876543210
 
 ---
 
-## 📌 Sample Output
+## Sample Output
 
 ```
 Student added successfully!
@@ -103,7 +112,7 @@ Student added successfully!
 
 ---
 
-## 🧪 Test Cases
+## Test Cases
 
 * Add student with valid details → Success
 * Search existing student → Display details
@@ -121,22 +130,24 @@ Student added successfully!
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
-* 💾 Add file handling or MySQL database for persistent storage
-* 🖥️ Develop GUI using Java Swing or JavaFX
-* ✅ Input validation and error handling improvements
-* 🔐 Authentication system (Admin/User roles)
+* Add file handling or MySQL database for persistent storage
+* Develop GUI using Java Swing or JavaFX
+* Input validation and error handling improvements
+* Authentication system (Admin/User roles)
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Ratnam Singh**
 B.Tech CSE Student
 
 ---
 
-## ⭐ Acknowledgement
+## git add README.md
+git commit -m "Added documentation link"
+git pushAcknowledgement
 
 This project was developed as part of learning and internship preparation to strengthen Java programming and problem-solving skills.
